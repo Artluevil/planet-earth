@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/planet-earth/static/css/main.0b36e2bc.chunk.css",
+    "main.js": "/planet-earth/static/js/main.2ed8f833.chunk.js",
+    "main.js.map": "/planet-earth/static/js/main.2ed8f833.chunk.js.map",
+    "runtime-main.js": "/planet-earth/static/js/runtime-main.69e28af6.js",
+    "runtime-main.js.map": "/planet-earth/static/js/runtime-main.69e28af6.js.map",
+    "static/js/2.4758d4c9.chunk.js": "/planet-earth/static/js/2.4758d4c9.chunk.js",
+    "static/js/2.4758d4c9.chunk.js.map": "/planet-earth/static/js/2.4758d4c9.chunk.js.map",
+    "static/js/3.934d73ec.chunk.js": "/planet-earth/static/js/3.934d73ec.chunk.js",
+    "static/js/3.934d73ec.chunk.js.map": "/planet-earth/static/js/3.934d73ec.chunk.js.map",
+    "index.html": "/planet-earth/index.html",
+    "static/css/main.0b36e2bc.chunk.css.map": "/planet-earth/static/css/main.0b36e2bc.chunk.css.map",
+    "static/js/2.4758d4c9.chunk.js.LICENSE.txt": "/planet-earth/static/js/2.4758d4c9.chunk.js.LICENSE.txt",
+    "static/media/earth-logo.510f9608.png": "/planet-earth/static/media/earth-logo.510f9608.png",
+    "static/media/style.css": "/planet-earth/static/media/mount-everest.a1fc0a8f.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69e28af6.js",
+    "static/js/2.4758d4c9.chunk.js",
+    "static/css/main.0b36e2bc.chunk.css",
+    "static/js/main.2ed8f833.chunk.js"
+  ]
+}
