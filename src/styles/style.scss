@@ -1,0 +1,333 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body-mountains {
+    overflow: visible;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+@media only screen and (max-width: 800px) {
+    .earth-logo {
+        width: 50px!important;
+    }
+
+    .website-name {
+
+        & h1 {
+            font-size: 24px!important;
+        }
+    }
+
+    .page1 {
+
+        &-content {
+            left: 5%!important;
+            margin-right: 5%;
+
+            & p {
+                left: 55%!important;
+                width: 80%!important;
+            }
+        }
+    }
+
+    .page2 {
+
+        &-content {
+            left: 5%!important;
+            margin-right: 5%;
+
+            & p {
+                left: 55%!important;
+                width: 80%!important;
+            }
+        }
+    }
+
+
+    .mountains-content {
+        width: 100vw!important;
+        margin: 0!important;
+
+        & p {
+            width: 90vw!important;
+        }
+    }
+}
+
+.earth-logo {
+    position: fixed;
+    width: 100px;
+    left: 5%;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.buttons {
+    display: inline;
+    position: fixed;
+    right: 10%;
+    top: 40%;
+    color: white;
+    z-index: 99!important;
+
+    & p {
+        cursor: pointer;
+    }
+}
+
+.link {
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.link-clicked {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.link-paragraph {
+    transition: 0.5s ease-in-out;
+}
+
+.website-name {
+    left: 25%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    z-index: 99!important;
+
+    & h1 {
+        width: 50%;
+        color: black;
+        transition: 0.5s;
+    }
+}
+
+@mixin backgroundOptions {
+    height: 100vh;
+    width: 100%;
+    background-color: #ededed;
+    font-size: 45px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.element1 {
+    @include backgroundOptions;
+    background-image: url('../images/earth1.jpg');
+
+    & .page1-content {
+        position: absolute;
+        bottom: 15%;
+        left: 5%;
+
+        & h2 {
+            color: rgb(95, 106, 250);
+        }
+    }
+        & p {
+        font-size: 16px;
+        width: 40%;
+        color: white;
+    }
+
+    & .button-container{
+        
+
+        & .btn-read-white {
+            color: white;
+            background: none;
+            border: 1px solid white;
+            border-radius: 6px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    }
+  }
+
+.element2 {
+    @include backgroundOptions;
+    background-image: url('../images/earth2.jpg');
+
+    & .page2-content {
+        position: absolute;
+        bottom: -90%;
+        left: 5%;
+
+        & h2 {
+            color: rgb(255, 136, 0);
+        }
+    }
+        & p {
+        font-size: 16px;
+        width: 50%!important;
+        color: white;
+    }
+
+    & .button-container{
+        
+
+        & .btn-read-white {
+            color: white;
+            background: none;
+            border: 1px solid white;
+            border-radius: 6px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    }
+  }
+
+.element3 {
+    @include backgroundOptions;
+    background-image: url('../images/earth3.jpg');
+
+    & .page3-content {
+        position: absolute;
+        bottom: -190%!important;
+        left: 5%;
+
+        & h2 {
+            color: rgb(68, 245, 83);
+        }
+    }
+        & p {
+        font-size: 16px;
+        width: 50%!important;
+        color: white;
+    }
+
+    & .button-container{
+        
+
+        & .btn-read-white {
+            color: white;
+            background: none;
+            border: 1px solid white;
+            border-radius: 6px;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    }
+
+    
+  }
+
+.pic-container1 {
+
+    & .pic {
+        width: 1980px;
+    }
+}
+
+.dot {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: 20px;
+    right: 110%;
+    transition: 0.5s ease-in-out;
+  }
+
+footer {
+    position: fixed;
+    z-index: 99!important;
+    right: 2%;
+    bottom: 0;
+
+    & .footer-wrapper {
+
+        & p {
+            color: rgb(167, 167, 167);
+        }
+    }
+}
+
+.home-wrapper {
+    width: 100%;
+}
+
+.buttons-mountains {
+    position: fixed;
+    z-index: 99!important;
+    right: 2%;
+    top: 40%;
+
+    & p {
+        color: rgb(145, 145, 145)
+    }
+}
+
+.mountains-content {
+
+    background: rgb(14, 14, 14);
+    padding: 20px;
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 15%;
+
+    & h1 {
+        color: rgb(95, 106, 250);
+    }
+
+    & p {
+        color: rgb(95, 106, 250);
+    }
+}
+
+.mountain-pic1 {
+}
+
+.mountains-element1 {
+    background: rgb(14, 14, 14);
+}
+
+.mountains-element2 {
+    z-index: 1;
+    background: rgb(14, 14, 14);
+    height: 100vh;
+    width: 100%;
+    background-color: #ededed;
+    background-image: url('../images/mount-everest.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes swipeHelpAnim {
+    0% {
+        color: rgb(85, 85, 85);
+    }
+    50% {
+        color: rgb(124, 124, 124);
+    }
+    100% {
+        color: rgb(85, 85, 85);
+    }
+}
+
+.swipe-help {
+    position: fixed;
+    right: 3ch;
+    top: .5ch;
+    z-index: 99;
+    
+    & p {
+        color: rgb(141, 141, 141);
+        font-size: 12px;
+        animation: swipeHelpAnim 4s infinite ease-in-out;
+    }
+}
