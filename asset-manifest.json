@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/planet-earth/static/css/main.0b36e2bc.chunk.css",
-    "main.js": "/planet-earth/static/js/main.85fbdccb.chunk.js",
-    "main.js.map": "/planet-earth/static/js/main.85fbdccb.chunk.js.map",
-    "runtime-main.js": "/planet-earth/static/js/runtime-main.69e28af6.js",
-    "runtime-main.js.map": "/planet-earth/static/js/runtime-main.69e28af6.js.map",
-    "static/js/2.4758d4c9.chunk.js": "/planet-earth/static/js/2.4758d4c9.chunk.js",
-    "static/js/2.4758d4c9.chunk.js.map": "/planet-earth/static/js/2.4758d4c9.chunk.js.map",
-    "static/js/3.934d73ec.chunk.js": "/planet-earth/static/js/3.934d73ec.chunk.js",
-    "static/js/3.934d73ec.chunk.js.map": "/planet-earth/static/js/3.934d73ec.chunk.js.map",
+    "main.css": "/planet-earth/static/css/main.0f8ea7c4.chunk.css",
+    "main.js": "/planet-earth/static/js/main.310280af.chunk.js",
+    "main.js.map": "/planet-earth/static/js/main.310280af.chunk.js.map",
+    "runtime-main.js": "/planet-earth/static/js/runtime-main.3da19a80.js",
+    "runtime-main.js.map": "/planet-earth/static/js/runtime-main.3da19a80.js.map",
+    "static/js/2.229566b8.chunk.js": "/planet-earth/static/js/2.229566b8.chunk.js",
+    "static/js/2.229566b8.chunk.js.map": "/planet-earth/static/js/2.229566b8.chunk.js.map",
+    "static/js/3.436aa601.chunk.js": "/planet-earth/static/js/3.436aa601.chunk.js",
+    "static/js/3.436aa601.chunk.js.map": "/planet-earth/static/js/3.436aa601.chunk.js.map",
     "index.html": "/planet-earth/index.html",
-    "static/css/main.0b36e2bc.chunk.css.map": "/planet-earth/static/css/main.0b36e2bc.chunk.css.map",
-    "static/js/2.4758d4c9.chunk.js.LICENSE.txt": "/planet-earth/static/js/2.4758d4c9.chunk.js.LICENSE.txt",
-    "static/media/earth-logo.510f9608.png": "/planet-earth/static/media/earth-logo.510f9608.png",
-    "static/media/style.css": "/planet-earth/static/media/mount-everest.a1fc0a8f.jpg"
+    "static/css/main.0f8ea7c4.chunk.css.map": "/planet-earth/static/css/main.0f8ea7c4.chunk.css.map",
+    "static/js/2.229566b8.chunk.js.LICENSE.txt": "/planet-earth/static/js/2.229566b8.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/planet-earth/static/media/nature-pic.d189c703.jpg",
+    "static/media/earth-logo.510f9608.png": "/planet-earth/static/media/earth-logo.510f9608.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.69e28af6.js",
-    "static/js/2.4758d4c9.chunk.js",
-    "static/css/main.0b36e2bc.chunk.css",
-    "static/js/main.85fbdccb.chunk.js"
+    "static/js/runtime-main.3da19a80.js",
+    "static/js/2.229566b8.chunk.js",
+    "static/css/main.0f8ea7c4.chunk.css",
+    "static/js/main.310280af.chunk.js"
   ]
 }
