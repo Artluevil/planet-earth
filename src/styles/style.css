@@ -318,4 +318,76 @@ footer .footer-wrapper p {
   -webkit-animation: swipeHelpAnim 4s infinite ease-in-out;
           animation: swipeHelpAnim 4s infinite ease-in-out;
 }
+
+.canyons-content {
+  background: #0e0e0e;
+  padding: 20px;
+  width: 50%;
+  margin-left: 22%;
+  margin-top: 15%;
+}
+
+.canyons-content h1 {
+  color: #ff8800;
+}
+
+.canyons-content p {
+  color: #ff8800;
+}
+
+.canyons-element1 {
+  background: #0e0e0e;
+}
+
+.canyons-element2 {
+  z-index: 1;
+  background: #0e0e0e;
+  height: 100vh;
+  width: 100%;
+  background-color: #ededed;
+  background-image: url("../images/canyon-pic.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.canyons-element3 {
+  background: #0e0e0e;
+}
+
+.nature-content {
+  background: #0e0e0e;
+  padding: 20px;
+  width: 50%;
+  margin-left: 22%;
+  margin-top: 15%;
+}
+
+.nature-content h1 {
+  color: #44f553;
+}
+
+.nature-content p {
+  color: #44f553;
+}
+
+.nature-element1 {
+  background: #0e0e0e;
+}
+
+.nature-element2 {
+  z-index: 1;
+  background: #0e0e0e;
+  height: 100vh;
+  width: 100%;
+  background-color: #ededed;
+  background-image: url("../images/nature-pic.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nature-element3 {
+  background: #0e0e0e;
+}
 /*# sourceMappingURL=style.css.map */

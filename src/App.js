@@ -1,12 +1,18 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './styles/style.css'
 import * as Scroll from 'react-scroll';
-import { Element, Link } from 'react-scroll'
+import { Element } from 'react-scroll'
+import {Link as ScrollLink} from 'react-scroll'
 import EarthLogo from './images/earth-logo.png'
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
-import Mountains from './components/Mountains'
+import {BrowserRouter, Switch, Route, Link} from 'react-router-dom'
+import ReadMore from './components/ReadMore'
+import data from './data/data.json'
 
 function App() {
+    useEffect(() => {
+        console.log(data.Mountains.section1)
+    }, [])
+
     const [linkClicked, setLinkClicked] = useState('dot1')
 
     function handleClick(name) {
@@ -74,16 +80,16 @@ function App() {
                             <div className="buttons">
                                 <div style={getStyleDot()} className="dot">
                                 </div>
-                                <p className={getStyleLink1('dot1')}><Link onClick={() => handleClick('dot1')} activeClass="active" className="test1" to="page1" spy={true} smooth={true} duration={500} >Mountains</Link></p>
-                                <p className={getStyleLink1('dot2')}><Link onClick={() => handleClick('dot2')} activeClass="active" className="test2" to="page2" spy={true} smooth={true} duration={500} >Canyons</Link></p>
-                                <p className={getStyleLink1('dot3')}><Link onClick={() => handleClick('dot3')} activeClass="active" className="test3" to="page3" spy={true} smooth={true} duration={500} >Nature</Link></p>
+                                <p className={getStyleLink1('dot1')}><ScrollLink onClick={() => handleClick('dot1')} activeClass="active" className="test1" to="page1" spy={true} smooth={true} duration={500} >Mountains</ScrollLink></p>
+                                <p className={getStyleLink1('dot2')}><ScrollLink onClick={() => handleClick('dot2')} activeClass="active" className="test2" to="page2" spy={true} smooth={true} duration={500} >Canyons</ScrollLink></p>
+                                <p className={getStyleLink1('dot3')}><ScrollLink onClick={() => handleClick('dot3')} activeClass="active" className="test3" to="page3" spy={true} smooth={true} duration={500} >Nature</ScrollLink></p>
                             </div>
                             <Element name="page1" className="element1">
                                 <div className="page1-content">
                                     <h2>Mountains</h2>
                                     <p>Sed ac orci id ante varius tristique. Donec eleifend tortor ac quam dignissim, sed ultricies massa tristique.</p>
                                     <div className="button-container">
-                                        <a href="/Mountains"><button className="btn-read-white">Read more</button></a>
+                                        <Link to="/Mountains"><button className="btn-read-white">Read more</button></Link>
                                     </div>
                                 </div>
                             </Element>
@@ -92,7 +98,7 @@ function App() {
                                     <h2>Canyons</h2>
                                     <p>Donec elit nisl, luctus a neque tempus, laoreet ultrices urna. Quisque non lacus vitae neque semper venenatis.</p>
                                     <div className="button-container">
-                                        <button className="btn-read-white">Read more</button>
+                                        <Link to="/Canyons"><button className="btn-read-white">Read more</button></Link>
                                     </div>
                                 </div>
                             </Element>
@@ -102,7 +108,7 @@ function App() {
                                     <h2>Nature</h2>
                                     <p>Donec tempor augue vel sem ultricies, in viverra mi pretium. Nulla accumsan massa id lectus maximus, vitae varius turpis gravida.</p>
                                     <div className="button-container">
-                                        <button className="btn-read-white">Read more</button>
+                                        <Link to="/Nature"><button className="btn-read-white">Read more</button></Link>
                                     </div>
                                 </div>
                             </Element>
@@ -114,7 +120,13 @@ function App() {
                         </section>
                     </Route>
                     <Route exact path="/Mountains">
-                        <Mountains getStyleDot={getStyleDot} handleClick={handleClick}/>
+                        <ReadMore data={data.Mountains}/>
+                    </Route>
+                    <Route exact path="/Canyons">
+                        <ReadMore data={data.Canyons}/>
+                    </Route>
+                    <Route exact path="/Nature">
+                        <ReadMore data={data.Nature}/>
                     </Route>
                 </Switch>
             </BrowserRouter>

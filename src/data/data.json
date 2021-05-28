@@ -1,0 +1,62 @@
+{
+    "Mountains": {
+        "section1": {
+            "name": "What is mountain",
+            "dsc":  "A mountain is an elevated portion of the Earth's crust, generally with steep sides that show significant exposed bedrock. A mountain differs from a plateau in having a limited summit area, and is larger than a hill, typically rising at least 300 metres (1000 feet) above the surrounding land. A few mountains are isolated summits, but most occur in mountain ranges.[1] Mountains are formed through tectonic forces, erosion, or volcanism,[1] which act on time scales of up to tens of millions of years.[2] Once mountain building ceases, mountains are slowly leveled through the action of weathering, through slumping and other forms of mass wasting, and through erosion by rivers and glaciers."
+        },
+        "section2": {
+            "name": "Highest Mountain",
+            "dsc":  "The highest mountain on Earth is Mount Everest in the Himalayas of Asia, whose summit is 8,850 m (29,035 ft) above mean sea level. The highest known mountain on any planet in the Solar System is Olympus Mons on Mars at 21,171 m (69,459 ft)."
+        },
+        "section3": {
+            "name": "Mountains and humans",
+            "dsc":  "The highest known permanently tolerable altitude is at 5,950 metres (19,520 ft).[33] At very high altitudes, the decreasing atmospheric pressure means that less oxygen is available for breathing, and there is less protection against solar radiation (UV).[9] Above 8,000 metres (26,000 ft) elevation, there is not enough oxygen to support human life. This is known as the death zone.[34] The summits of Mount Everest and K2 are in the death zone."
+        },
+        "styling": {
+            "element1": "mountains-element1",
+            "element2": "mountains-element2",
+            "element3": "mountains-element3",
+            "content": "mountains-content"
+        }
+    },
+    "Canyons": {
+        "section1": {
+            "name": "What is canyon?",
+            "dsc": "A canyon (from Spanish: cañón; archaic British English spelling: cañon)[1] or gorge is a deep cleft between escarpments or cliffs resulting from weathering and the erosive activity of a river over geologic time scales.[2] Rivers have a natural tendency to cut through underlying surfaces, eventually wearing away rock layers as sediments are removed downstream."
+        },
+        "section2": {
+            "name": "Largest canyon",
+            "dsc": "The definition of largest canyon is imprecise, because a canyon can be large by its depth, its length, or the total area of the canyon system. Also, the inaccessibility of the major canyons in the Himalaya contributes to them not being regarded as candidates for the biggest canyon"
+        },
+        "section3": {
+            "name": "Cultural significance",
+            "dsc": "Some canyons have notable cultural significance. Evidence of early humanoids has been discovered in Africa's Olduvai Gorge. In the southwestern United States, canyons are important archeologically because of the many cliff-dwellings built in such areas, largely by the ancient Pueblo people who were their first inhabitants."
+        },
+        "styling": {
+            "element1": "canyons-element1",
+            "element2": "canyons-element2",
+            "element3": "canyons-element3",
+            "content": "canyons-content"
+        }
+    },
+    "Nature": {
+        "section1": {
+            "name": "What is nature?",
+            "dsc": "Nature, in the broadest sense, is the natural, physical, material world or universe. Nature can refer to the phenomena of the physical world, and also to life in general. The study of nature is a large, if not the only, part of science. Although humans are part of nature, human activity is often understood as a separate category from other natural phenomena."
+        },
+        "section2": {
+            "name": "Waters of Earth",
+            "dsc": "Water is a chemical substance that is composed of hydrogen and oxygen (H2O) and is vital for all known forms of life.[29] In typical usage, water refers only to its liquid form or state, but the substance also has a solid state, ice, and a gaseous state, water vapor, or steam. Water covers 71% of the Earth's surface."
+        },
+        "section3": {
+            "name": "Wild Nature",
+            "dsc": "Wilderness is generally defined as areas that have not been significantly modified by human activity. Wilderness areas can be found in preserves, estates, farms, conservation preserves, ranches, national forests, national parks, and even in urban areas along rivers, gulches, or otherwise undeveloped areas. Wilderness areas and protected parks are considered important for the survival of certain species, ecological studies, conservation, and solitude. Some nature writers believe wilderness areas are vital for the human spirit and creativity,[46] and some ecologists consider wilderness areas to be an integral part of the Earth's self-sustaining natural ecosystem (the biosphere)."
+        },
+        "styling": {
+            "element1": "nature-element1",
+            "element2": "nature-element2",
+            "element3": "nature-element3",
+            "content": "nature-content"
+        }
+    }
+}

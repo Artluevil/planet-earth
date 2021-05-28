@@ -113,7 +113,7 @@ h2 {
 }
 
 @mixin backgroundOptions {
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-color: #ededed;
     font-size: 45px;
@@ -288,9 +288,6 @@ footer {
     }
 }
 
-.mountain-pic1 {
-}
-
 .mountains-element1 {
     background: rgb(14, 14, 14);
 }
@@ -330,4 +327,78 @@ footer {
         font-size: 12px;
         animation: swipeHelpAnim 4s infinite ease-in-out;
     }
+}
+
+.canyons-content {
+
+    background: rgb(14, 14, 14);
+    padding: 20px;
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 15%;
+
+    & h1 {
+        color: rgb(255, 136, 0);
+    }
+
+    & p {
+        color: rgb(255, 136, 0);
+    }
+}
+
+.canyons-element1 {
+    background: rgb(14, 14, 14);
+}
+
+.canyons-element2 {
+    z-index: 1;
+    background: rgb(14, 14, 14);
+    height: 100vh;
+    width: 100%;
+    background-color: #ededed;
+    background-image: url('../images/canyon-pic.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.canyons-element3 {
+    background: rgb(14, 14, 14);
+}
+
+.nature-content {
+
+    background: rgb(14, 14, 14);
+    padding: 20px;
+    width: 50%;
+    margin-left: 22%;
+    margin-top: 15%;
+
+    & h1 {
+        color: rgb(68, 245, 83);
+    }
+
+    & p {
+        color: rgb(68, 245, 83);
+    }
+}
+
+.nature-element1 {
+    background: rgb(14, 14, 14);
+}
+
+.nature-element2 {
+    z-index: 1;
+    background: rgb(14, 14, 14);
+    height: 100vh;
+    width: 100%;
+    background-color: #ededed;
+    background-image: url('../images/nature-pic.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nature-element3 {
+    background: rgb(14, 14, 14);
 }
